@@ -7,7 +7,7 @@ export default function ArticleList({articles}) {
         <li className='list-items-without-dots' key={article.id}><Article article={article}/></li>
     )
     return (
-        <ul>
+        <ul className="post-list">
             {articleElements}
         </ul>
     )
