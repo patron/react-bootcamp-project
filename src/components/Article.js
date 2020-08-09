@@ -9,7 +9,7 @@ render() {
     const body = this.state.isOpen && <section className="card-text">{article.text}</section>
 
     return (
-        <div className="card">
+        <div className="card card-interval">
             <div className="card-header">
                <h2>{article.title}
                    <button onClick={this.handleClick} className="btn btn-primary float-right">
